@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class typeAttr="JavaClass" canUseAttr="GroovyLang">
+    <students group="A">
+        <student id="01" rollno="393">
+            <firstname>dinkar</firstname>
+            <lastname>kad</lastname>
+            <nickname>dinkar</nickname>
+            <marks>85</marks>
+        </student>
+        <student rollno="493">
+            <firstname>Vaneet</firstname>
+            <lastname>Gupta</lastname>
+            <nickname>vinni</nickname>
+            <marks>95</marks>
+        </student>jasvirsingnjazz90
+    </students>
+    <students group="B">
+        <student id="52" rollno="693">
+            <firstname>Vasya</firstname>
+            <lastname>Pupkin</lastname>
+            <nickname>vvv</nickname>
+            <marks>35</marks>
+        </student>
+        <student rollno="793">
+            <firstname>Petya</firstname>
+            <lastname>Vasechkin</lastname>
+            <nickname>petro</nickname>
+            <marks>34</marks>
+        </student>
+    </students>
+</class>
