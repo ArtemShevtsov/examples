@@ -18,7 +18,7 @@ public class HibernateExample {
     public static void main(String[] args) {
         HibernateExample hibernateExample = new HibernateExample();
 
-//        hibernateExample.initDB();
+        hibernateExample.initDB();
         hibernateExample.showData();
 
         HibernateUtils.shutdown();

@@ -1,9 +1,12 @@
 package com.ashevtsov.examples;
 
+import java.util.ArrayList;
+
 /**
  * Created by Artem_Shevtsov on 6/25/2015.
  */
 public class Parent {
+
     String p = verify("4  - Parent's non-static class variable p initialized.");
 
     static String pstatic = verify("1a - Parent's static class variable pstatic initialized.");
