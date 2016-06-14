@@ -3,7 +3,6 @@ package com.ashevtsov.examples.database.hibernate.util;
 import com.ashevtsov.examples.database.hibernate.pojo.Employee;
 import com.ashevtsov.examples.database.hibernate.pojo.JobPosition;
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.cfg.Configuration;
 
 /**
