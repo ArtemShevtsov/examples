@@ -1,0 +1,21 @@
+git clone https://git.epam.com/sap-supp/caf.git
+git config credential.helper 'cache --timeout=28800'
+git checkout master
+
+sudo usermod -aG docker artem_shevtsov
+
+	/api
+./gradlew version
+./gradlew build
+./gradlew bootRepackage
+
+	/ui
+sudo npm install -g bower
+npm install
+bower install
+
+	docker
+sudo docker-compose up
+sudo docker-compose ps
+sudo docker-compose rm --all
+sudo docker-compose up db

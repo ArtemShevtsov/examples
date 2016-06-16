@@ -28,6 +28,7 @@ public class JPAConfiguration {
     public LocalSessionFactoryBean sessionFactory(){
         Properties hibernateProps = new Properties();
         hibernateProps.setProperty("hbm2ddl.auto", "update");
+        hibernateProps.setProperty("hibernate.connection.pool_size", String.valueOf(20));
 
         LocalSessionFactoryBean localSessionFactory = new LocalSessionFactoryBean();
         localSessionFactory.setDataSource(dataSource());

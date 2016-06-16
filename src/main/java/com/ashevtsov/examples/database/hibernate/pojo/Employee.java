@@ -25,7 +25,7 @@ public class Employee implements Serializable {
     @Column(name = "full_name", nullable = false)
     private String fullName;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "job_position_employee",
             joinColumns = @JoinColumn(name = "id"),
             inverseJoinColumns = @JoinColumn(name = "job_id")
